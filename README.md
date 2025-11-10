@@ -2,7 +2,6 @@
 
 > Modern productive Linux setup. Includes Zsh, Neovim, Kitty, Fastfetch, and fully automated plugin installation.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Shell: Zsh](https://img.shields.io/badge/Shell-Zsh-blue.svg)](https://www.zsh.org/)
 [![Neovim](https://img.shields.io/badge/Editor-Neovim-57a143.svg)](https://neovim.io/)
 [![Kitty](https://img.shields.io/badge/Terminal-Kitty-ff79c6.svg)](https://sw.kovidgoyal.net/kitty/)
