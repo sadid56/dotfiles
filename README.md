@@ -1,6 +1,6 @@
-# ⚡ Fedora/Unix Dotfiles
+# ⚡ Linux Dotfiles
 
-> My personal dotfiles for a modern, productive Linux setup. Includes Zsh, Neovim, Kitty, Fastfetch, and fully automated plugin installation.
+> Modern productive Linux setup. Includes Zsh, Neovim, Kitty, Fastfetch, and fully automated plugin installation.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Shell: Zsh](https://img.shields.io/badge/Shell-Zsh-blue.svg)](https://www.zsh.org/)
@@ -25,25 +25,38 @@ This repository contains my **personal dotfiles** for Fedora and Unix-like syste
 **Important:** The installer backs up existing configuration files:
 
 ```bash
+```
+```bash
 ~/.zshrc -> ~/.zshrc.backup
 ~/.config/nvim -> ~/.config/nvim.backup
 ~/.config/kitty -> ~/.config/kitty.backup
 ~/.config/fastfetch -> ~/.config/fastfetch.backup
+```
+
+Make sure you don’t have unsaved changes in your configs before running the installer.
 
 🛠️ Dependencies
 
 Fedora:
+```bash
 sudo dnf install -y zsh neovim kitty git curl wget fontconfig powerline fonts-powerline
+```
 
 Arch:
-sudo pacman -Y zsh neovim kitty git curl wget fontconfig powerline fonts-powerline
+```bash
+sudo pacman -S zsh neovim kitty git curl wget fontconfig powerline fonts-powerline 
+```
+
+Other distros: Use your package manager (apt, zyper, etc.) to install these packages.
 
 🚀 Installation
 Step 1: Clone and Install
 
+```bash
 git clone https://github.com/sadid56/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
+```
 
 This script will:
 
@@ -56,7 +69,15 @@ This script will:
 - powerlevel10k theme
 - Set Zsh as the default shell
 
-
 Step 2: Restart Terminal
 
 After installation, restart your terminal for Zsh and the theme to load correctly.
+```
+```
+```
+```
+
+
+🎨 Optional: Powerlevel10k Configuration
+
+When you first start Zsh after installation, Powerlevel10k will guide you through a setup wizard for a personalized prompt.
