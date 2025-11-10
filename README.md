@@ -58,7 +58,6 @@ cd ~/dotfiles
 
 This script will:
 
-- Install dependencies (if missing)
 - Backup existing configs
 - Symlink dotfiles to the correct locations
 - Install Zsh plugins automatically:
