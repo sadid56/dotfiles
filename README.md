@@ -25,8 +25,6 @@ This repository contains my **personal dotfiles** for Fedora and Unix-like syste
 **Important:** The installer backs up existing configuration files:
 
 ```bash
-```
-```bash
 ~/.zshrc -> ~/.zshrc.backup
 ~/.config/nvim -> ~/.config/nvim.backup
 ~/.config/kitty -> ~/.config/kitty.backup
@@ -70,14 +68,10 @@ This script will:
 - Set Zsh as the default shell
 
 Step 2: Restart Terminal
-
 After installation, restart your terminal for Zsh and the theme to load correctly.
-```
-```
-```
-```
-
 
 🎨 Optional: Powerlevel10k Configuration
 
 When you first start Zsh after installation, Powerlevel10k will guide you through a setup wizard for a personalized prompt.
+
+# Thanks For Explore Me 😍
