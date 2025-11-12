@@ -41,7 +41,7 @@ sudo dnf install -y zsh neovim kitty git curl wget
 
 Arch:
 ```bash
-sudo pacman -S zsh neovim kitty git curl wget 
+sudo pacman -S zsh neovim kitty git curl wget fzf
 ```
 
 Other distros: Use your package manager (apt, zyper, etc.) to install these packages.
