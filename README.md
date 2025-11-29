@@ -36,7 +36,7 @@ Make sure you don’t have unsaved changes in your configs before running the in
 
 Fedora:
 ```bash
-sudo dnf install -y zsh neovim kitty git curl wget
+sudo dnf install -y zsh neovim kitty git curl wget fzf
 ```
 
 Arch:
