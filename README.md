@@ -10,7 +10,7 @@
 
 ## 📝 About
 
-This repository contains my **personal dotfiles** for Fedora and Unix-like systems. It is designed for:
+This repository contains my **personal dotfiles** for Linux. It is designed for:
 
 - Clean, modern terminal setup
 - Productivity-focused Neovim configuration
