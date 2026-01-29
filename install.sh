@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# install.sh - Setup Fedora/Unix dotfiles with Zsh plugins
 
 set -e # exit on error
 DOTFILES_DIR="$HOME/dotfiles"
