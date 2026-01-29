@@ -36,12 +36,12 @@ Make sure you don’t have unsaved changes in your configs before running the in
 
 Fedora:
 ```bash
-sudo dnf install -y zsh neovim kitty git curl wget fzf
+sudo dnf install -y zsh neovim kitty git curl wget fzf wl-clipboard
 ```
 
 Arch:
 ```bash
-sudo pacman -S zsh neovim kitty git curl wget fzf
+sudo pacman -S zsh neovim kitty git curl wget fzf wl-clipboard
 ```
 
 Other distros: Use your package manager (apt, zyper, etc.) to install these packages.
