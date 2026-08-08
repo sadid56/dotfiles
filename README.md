@@ -36,7 +36,7 @@ Make sure you don’t have unsaved changes in your configs before running the in
 
 Arch:
 ```bash
-sudo pacman -S zsh neovim kitty git curl wget fzf wl-clipboard ttf-jetbrains-mono-nerd nodejs npm
+sudo pacman -S zsh neovim kitty git curl wget fzf wl-clipboard ttf-jetbrains-mono-nerd nodejs npm fastfetch
 ```
 
 Other distros: Use your package manager (apt, zyper, dnf etc.) to install these packages.
