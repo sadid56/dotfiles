@@ -67,4 +67,21 @@ After installation, restart your terminal for Zsh and the theme to load correctl
 
 When you first start Zsh after installation, Powerlevel10k will guide you through a setup wizard for a personalized prompt.
 
+## 🧹 Uninstallation
+
+To completely uninstall the configurations and revert changes:
+
+```bash
+cd ~/dotfiles
+./uninstall.sh
+```
+
+This script will:
+- Revert configuration symlinks and restore your original backup files (if they exist).
+- Clean up custom Zsh plugins and Powerlevel10k configuration/caches.
+- Optionally prompt to change your default shell back to Bash.
+- Optionally prompt to completely remove Oh My Zsh.
+- Optionally delete the cloned `~/dotfiles` repository.
+
 # Thanks For Explore Me 😍
+
