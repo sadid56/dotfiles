@@ -6,6 +6,9 @@
 [![Neovim](https://img.shields.io/badge/Editor-Neovim-57a143.svg)](https://neovim.io/)
 [![Kitty](https://img.shields.io/badge/Terminal-Kitty-ff79c6.svg)](https://sw.kovidgoyal.net/kitty/)
 
+![Theme Screenshot](assets/theme.png)
+![Setup Screenshot](assets/image.png)
+
 ---
 
 ## 📝 About
